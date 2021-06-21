@@ -1,0 +1,21 @@
+    ul#categories {
+        display: flex;
+        align-items: stretch;
+        /* Default */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul#categories li {
+        display: inline;
+        flex: 0 1 auto;
+        /* Default */
+        list-style-type: none;
+    }
+    
+    ul#categories li:hover {
+        color: #6dd66d;
+        cursor: pointer;
+    }
